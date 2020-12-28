@@ -13,3 +13,18 @@ address AS 住所,
 tel AS 電話番号
 FROM
 customers
+
+SELECT
+    c.c_name,
+    c.zipcode,
+    c.address,
+    c.tel
+FROM
+    customers AS c
+
+
+
+SELECT
+    *
+FROM
+    customers
