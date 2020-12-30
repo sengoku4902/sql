@@ -7,3 +7,10 @@ SELECT
     total % 12
 FROM
     earnings
+
+SELECT
+        total AS a,
+        total + total AS b,
+        total * (total / 30) AS c
+    FROM
+        earnings
