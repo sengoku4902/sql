@@ -58,4 +58,29 @@ FROM
 WHERE
     price >= 2000
 
+SELECT
+    itemcode,
+    itemname,
+    price
+FROM
+    items
+WHERE
+    price <= 2000
 
+SELECT
+        itemcode,
+        itemname,
+        price
+    FROM
+        items
+    WHERE
+        price != 2000
+
+SELECT
+        itemcode,
+        itemname,
+        price
+    FROM
+        items
+    WHERE
+        price <> 2000
